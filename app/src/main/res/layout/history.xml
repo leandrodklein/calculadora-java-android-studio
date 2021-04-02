@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_historico_resultado_linha1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="10"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:gravity="end"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_historico_resultado_linha2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="+ 12"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:gravity="end"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_historico_resultado_linha2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="= 24"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:gravity="end"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_historico_resultado_linha2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="------------"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:gravity="end"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_historico_resultado_linha1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="10"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:gravity="end"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_historico_resultado_linha2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="+ 12"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:gravity="end"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_historico_resultado_linha2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="= 24"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:gravity="end"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_historico_resultado_linha2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="------------"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:gravity="end"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_historico_resultado_linha1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="25"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:gravity="end"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_historico_resultado_linha2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="- 15"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:gravity="end"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_historico_resultado_linha2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="= 10"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:gravity="end"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_historico_resultado_linha2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="------------"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:gravity="end"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_voltar"
+            style="@style/Operators_Button"
+            android:layout_height="83dp"
+            android:text="Voltar" />
+    </LinearLayout>
+
+</LinearLayout>
