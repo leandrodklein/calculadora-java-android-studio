@@ -2,6 +2,7 @@ package br.ldkstudiosart.calculadora;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -178,5 +179,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 AdicionarExpressao("/", false);
                 break;
         }
+    }
+
+    public void acessarHistory(View v) {
+        Intent it = new Intent(getBaseContext(), HistoryActivity.class);
+        it.putExtra("resultado", txtResultado.getText().toString());
+        startActivity(it);
     }
 }

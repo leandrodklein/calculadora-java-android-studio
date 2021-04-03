@@ -165,8 +165,9 @@
         android:orientation="horizontal">
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_historico"
+            android:id="@+id/btn_history"
             style="@style/Operators_Button"
+            android:onClick="acessarHistory"
             android:text="Histórico" />
     </LinearLayout>
 
